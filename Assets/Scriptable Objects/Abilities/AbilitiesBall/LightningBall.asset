@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ee9aa51d0bb4047bf9411a8ed7ca25, type: 3}
+  m_Name: LightningBall
+  m_EditorClassIdentifier: 
+  skillName: LightningBall
+  Description: Shoots LightningBall with stun effect
+  abilitySprite: {fileID: 0}
+  currentAbilityCooldown: 0
+  isAbilityCooldown: 0
+  abilityCooldown: 2
+  abilityKey: 52
+  LightningBallInstance: {fileID: 8625922347035223888, guid: 2a060a41d143b9946856b4a8ac4ed47b, type: 3}
+  movementForce: 750
+  damage: 10
+  stunMovement: 0
+  stunTime: 0

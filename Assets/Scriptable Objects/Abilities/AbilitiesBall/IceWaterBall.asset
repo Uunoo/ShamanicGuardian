@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c0ef00f8164d104ab2b7caf6a13fd11, type: 3}
+  m_Name: IceWaterBall
+  m_EditorClassIdentifier: 
+  skillName: IceWaterBall
+  Description: Shoots AIceWaterBall with freezing effect
+  abilitySprite: {fileID: 0}
+  currentAbilityCooldown: 0
+  isAbilityCooldown: 0
+  abilityCooldown: 1
+  abilityKey: 50
+  IceWaterBallInstance: {fileID: 6637957724937184427, guid: 5d5bb60c5dda8924c963d87d4f976230, type: 3}
+  movementForce: 750
+  damage: 10
+  slowMovementSpeed: 0
+  slowTime: 1.5
+  rootMovement: 0
+  rootTime: 0
+  knockBackForce: 0

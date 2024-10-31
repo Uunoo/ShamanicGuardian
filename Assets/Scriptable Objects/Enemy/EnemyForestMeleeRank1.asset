@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 201c680b48a28144b9761d2e5c205d20, type: 3}
+  m_Name: EnemyForestMeleeRank1
+  m_EditorClassIdentifier: 
+  Description: EnemyForestMeleeRank1
+  RankDescription: Rank1
+  AttackTypeDescription: Melee
+  enemyAttackDamage: 10
+  enemyAttackSpeed: 10
+  enemyAttackRange: 2
+  enemyAggroRange: 10
+  enemyPlayerDistance: 14.13407
+  enemyProjectile: {fileID: 0}
+  enemyMovementSpeed: 7
+  enemyMaxHealth: 100
+  enemyHealth: 100

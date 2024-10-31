@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5799422194278728474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8133012817496481273}
+  - component: {fileID: 2998028556376960492}
+  m_Layer: 0
+  m_Name: SoundFXManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8133012817496481273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5799422194278728474}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2998028556376960492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5799422194278728474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da49e52d06f98ca41b7e52783e0c0b87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoundFXObject: {fileID: 691702040428762736, guid: 1f3b4b49d85ec9947b11f25c1d95607f, type: 3}
+  shootFireEffect: {fileID: 8300000, guid: be0be9c8da25f984eba66f2385e62273, type: 3}
+  shootLightningEffect: {fileID: 8300000, guid: f28f9e91b506fb748a8d553908b5888b, type: 3}
+  shootAirEffect: {fileID: 8300000, guid: 06ef45e54086f144887b7aa49774c076, type: 3}
+  shootWaterEffect: {fileID: 8300000, guid: 05ecb7ee14cf3ba479ce23391efe327a, type: 3}
+  shootHealEffect: {fileID: 8300000, guid: 1140f77d40292eb42bc13f209ca38a74, type: 3}
+  playerMovementEffect: {fileID: 8300000, guid: 147f9b22580430e459991dce70a7842c, type: 3}
+  enemyOneMovementEffect: {fileID: 8300000, guid: d2227fd2f6c7c5e41b1b1a05e32d68b3, type: 3}
+  enemyAttackEffect: {fileID: 8300000, guid: d6651bd6861548846b0decad1805d365, type: 3}
+  enemyTakeDamageEffect: {fileID: 8300000, guid: bbc9db323b6420a48a7eb6d42fd3522c, type: 3}

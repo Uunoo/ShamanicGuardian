@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Enviroment
+  - EnemyProjectile
+  - 1ToScene2
+  - 1ToScene3
+  - 2ToScene1
+  - 3ToScene1
+  - Spawn1-2
+  - Spawn1-3
+  - Spawn2
+  - Spawn3
+  - Confiner
+  - CameraConfiner
+  - Projectile
+  - EndLine
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Foreground
+  - Water
+  - UI
+  - bounds
+  - Player
+  - Projectile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 1230350907
+    locked: 0

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4403eb76d6bbcd045a265f2fb9eb9140, type: 3}
+  m_Name: NatureHeal
+  m_EditorClassIdentifier: 
+  skillName: NatureHeal for player
+  Description: Shoots NatureHeal Ball with healeffect
+  abilitySprite: {fileID: 0}
+  currentAbilityCooldown: 0
+  isAbilityCooldown: 0
+  abilityCooldown: 10
+  abilityKey: 53
+  NatureHealInstance: {fileID: 2522026726073668372, guid: 1083fad4d1eadbb488de5d245883a81d, type: 3}
+  healAmount: 10
+  healTime: 0
